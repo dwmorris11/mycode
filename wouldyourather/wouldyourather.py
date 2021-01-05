@@ -27,7 +27,7 @@ def askQuestion(index):
       result = askQuestion(index)
   return result
 
-questions = [["date your celebrity crush?", "date the wealthiest person?"],
+questions = [["date the wealthiest person?", "date your celebrity crush?"],
   ["win a Harley motorcycle?", "win a BMW motorcycle?"],
   ["have more money?", "have more time?"],
   ["live without internet for a year?", "live without a phone for a year?"],
