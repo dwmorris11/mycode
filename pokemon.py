@@ -23,13 +23,14 @@ def pokeMoves(pokemon):
     return result
 
 poke = input("What pokemon do you want to search?").strip().lower()
+poke1 = poke.capitalize()
 pokemon = getPokemonJSON(poke)
 image = printImageLink(pokemon)
 games = countGames(pokemon)
 moves = pokeMoves(pokemon)
 
 print(f"""
-{poke}:
+{poke1}:
 image: {image}
 appearances in games: {games}
 moves: {moves}
